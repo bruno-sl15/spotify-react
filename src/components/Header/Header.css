@@ -58,16 +58,17 @@
     margin-left: 10px;
   }
   
-  .header__search input {
-    background: transparent;
-    border: none;
-    padding: 0px 100px 0 12px;
-    color: #fff;
-    text-overflow: ellipsis;
-    overflow:hidden;
-    white-space: nowrap;
-    outline: none;
-  }
+.header__search input {
+  background: transparent;
+  border: none;
+  padding: 0 24px 0 12px;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+  flex-basis: 80%;
+}
   
   .header__login .subscribe {
     color: #a7a7a7;
@@ -95,8 +96,10 @@
   .header__login .subscribe:hover {
     transform: scale(1.04);
     color: #fff;
+    cursor: pointer;
   }
   
   .header__login .login:hover {
     transform: scale(1.04);
+    cursor: pointer;
   }
