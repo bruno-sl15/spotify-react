@@ -9,10 +9,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header/>
         <Sidebar/>
         <Footer/>
-        <Main/>
+        <div className='main-container'>
+          <Header/>
+          <Main/>
+        </div>
       </div>
     );
   }
