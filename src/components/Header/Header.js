@@ -3,6 +3,7 @@ import './Header.css';
 import smallRight from '../../assets/icons/small-right.png';
 import smallLeft from '../../assets/icons/small-left.png';
 import search from '../../assets/icons/search.png';
+import SearchComponent from "../SearchComponent/SearchComponent";
 
 const Header = () => {
     return (
@@ -16,7 +17,7 @@ const Header = () => {
                 </button>
                 <div className="header__search">
                     <img src={search} alt="" />
-                    <input id="search-input" type="text" maxlength="800" placeholder="Buscar artistas" />
+                    <SearchComponent />
                 </div>
             </div>
             <div className="header__login">
